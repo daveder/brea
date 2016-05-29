@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="row login-container column-seperation">
+    <div class="col-md-5 col-md-offset-1">
+      <br>
+      <img class="logo login" src="assets/img/logo.svg">
+      <h3>
+        Sign in to your account
+      </h3><br>
+      <p class="hidden-xs">
+        Please sign-in with your email and password.<br>
+        Don't have an account yet?<a href="register.html"> Register now!</a>
+      </p>
+    </div>
+    <div class="col-md-5">
+      <br>
+      <form action="index.html" class="login-form validate" id="login-form" method="post" name="login-form">
+        <div class="row">
+          <div class="form-group col-md-10">
+            <label class="form-label">Username</label>
+            <input class="form-control" id="txtusername" name="txtusername" type="email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-md-10">
+            <label class="form-label">Password</label> <span class="help"></span>
+            <input class="form-control" id="txtpassword" name="txtpassword" type="password" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="control-group col-md-10">
+            <div class="checkbox checkbox check-success">
+              <input id="checkbox1" type="checkbox" value="1"> <label for=
+              "checkbox1">Keep me reminded</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <button class="btn btn-primary btn-cons pull-right" type="submit">Login</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
